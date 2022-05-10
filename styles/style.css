@@ -1,0 +1,54 @@
+:root {
+	--main-bg: #e6e6e6;
+	--design-bg: #E6563B;
+	--develop-bg: #EB9D3A;
+	--support-bg: #7CB06C;
+	--host-bg: #00ABA9;
+}
+
+h1, h2, h3 {
+	font-family: 'Anton', sans-serif;
+}
+
+body {
+	background-color: var(--main-bg);
+}
+
+nav {
+	background-color: var(--main-bg);
+	font-family: 'Abel', sans-serif;
+}
+
+
+#design {
+	background-color: var(--design-bg);
+}
+
+#develop {
+	background-color: var(--develop-bg);
+}
+
+#support {
+	background-color: var(--support-bg);
+}
+
+#host {
+	background-color: var(--host-bg);
+}
+
+#logo-img {
+	width: 105px;
+	height: 105px;
+}
+
+.icon-big {
+	font-family: 'Anton', sans-serif;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 5px solid white;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
