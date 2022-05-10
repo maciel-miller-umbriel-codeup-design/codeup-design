@@ -6,6 +6,7 @@
 	--host-bg: #00ABA9;
 }
 
+
 * {
 	box-sizing: border-box;
 }
@@ -40,6 +41,11 @@ nav {
 	background-color: var(--host-bg);
 }
 
+.divider {
+	margin: 0 auto;
+	width: 96vw;
+}
+
 #logo-img {
 	width: 105px;
 	height: 105px;
@@ -58,8 +64,8 @@ nav {
 	display: flex;
 	color: white;
 	border: 5px solid white;
-	width: 90px;
-	height: 90px;
+	width: 75px;
+	height: 75px;
 }
 
 .icon-sm {
