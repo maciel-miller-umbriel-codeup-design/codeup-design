@@ -42,8 +42,8 @@ nav {
 }
 
 .divider {
-	margin: 0 auto;
-	width: 96vw;
+
+	width: 99%;
 }
 
 #logo-img {
@@ -60,12 +60,12 @@ nav {
 
 }
 
-.icon-big {
+.icon-lg {
 	display: flex;
 	color: white;
-	border: 5px solid white;
-	width: 75px;
-	height: 75px;
+	border: 3px solid white;
+	width: 80px;
+	height: 80px;
 }
 
 .icon-sm {
