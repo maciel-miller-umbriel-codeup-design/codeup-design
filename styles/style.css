@@ -11,6 +11,10 @@
 	box-sizing: border-box;
 }
 
+main img {
+	border: 5px solid lightgrey;
+}
+
 h1, h2, h3 {
 	font-family: 'Anton', sans-serif;
 }
@@ -22,6 +26,11 @@ body {
 nav {
 	background-color: var(--main-bg);
 	font-family: 'Abel', sans-serif;
+}
+
+#logo-img {
+	width: 105px;
+	height: 105px;
 }
 
 
@@ -46,10 +55,6 @@ nav {
 	width: 99%;
 }
 
-#logo-img {
-	width: 105px;
-	height: 105px;
-}
 
 .icon {
 	font-family: 'Anton', sans-serif;
@@ -64,8 +69,8 @@ nav {
 	display: flex;
 	color: white;
 	border: 3px solid white;
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 }
 
 .icon-sm {
